@@ -1,3 +1,5 @@
+package com.mlb.ai.mlb_power_rankings_kc;
+
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;

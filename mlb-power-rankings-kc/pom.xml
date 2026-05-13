@@ -14,7 +14,8 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
     </properties>
-
+	
+	
     <dependencies>
 
         <dependency>
@@ -24,5 +25,18 @@
         </dependency>
 
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>com.mlb.ai.mlb_power_rankings_kc.MLBPowerRankings</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

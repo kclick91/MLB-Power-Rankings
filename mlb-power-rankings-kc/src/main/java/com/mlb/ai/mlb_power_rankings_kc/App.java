@@ -1,4 +1,4 @@
-package com.mlb.ai.mlb_power_rankings_kc;
+
 
 /**
  * Hello world!
